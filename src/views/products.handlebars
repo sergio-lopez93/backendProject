@@ -1,0 +1,23 @@
+<h2>Profile</h2>
+<hr>
+<h2 id="user" data-cart="{{user.cartID}}">Productos agregados de {{user.nombre}} - id: {{user.id}}</h2>
+<ul>
+    {{#each cart.bolsa}}
+        <li data-product-id="{{productID}}">
+            {{descrip}} - cantidad: <span class="cantidad">{{cantidad}}</span> 
+            <button onclick="eliminarProducto({{productID}})">Eliminar</button>
+        </li>
+    {{/each}}
+</ul>
+<hr>
+<h2>Productos disponibles</h2>
+<ul id="productos">
+    {{#each products}}
+        <li>{{descrip}} <button onclick="agregarProducto({{id}})">Add to cart</button></li>
+    {{/each}}
+</ul>
+<br>
+<a href="/">volver a Alumnos</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/products.js"></script>

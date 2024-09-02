@@ -1,0 +1,32 @@
+[
+     {
+          "id": 1,
+          "descrip": "Harina Pan",
+          "precio": 1600
+     },
+     {
+          "id": 2,
+          "descrip": "Arroz 1kg",
+          "precio": 1200
+     },
+     {
+          "id": 3,
+          "descrip": "Leche entera en polvo 1kg",
+          "precio": 4300
+     },
+     {
+          "id": 4,
+          "descrip": "Leche liquida 1lt",
+          "precio": 1200
+     },
+     {
+          "id": 5,
+          "descrip": "porotos negros",
+          "precio": 1500
+     },
+     {
+          "id": 6,
+          "descrip": "jugo de naranja",
+          "precio": 800
+     }
+]
